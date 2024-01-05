@@ -29,7 +29,7 @@ You can follow the same steps for configure Azure Site Recovery with Trusted VMs
 
 > [!NOTE]
 >
-> - We don't recommend Private Preview with production workloads. Use private preview with development or test workloads only.<br> <br>
+> - We don't recommend Private Preview with production workloads. Use private preview with development or test workloads only. <br>
 > - There'll be no migration channel supported from private preview to public preview or GA. So, customers might need to disable Azure Site Recovery on the Trusted VMs on which they have enabled it during private preview and re-enable Azure Site Recovery post the Public Preview / GA. 
 
 ## Contact 
