@@ -24,8 +24,8 @@ Find the support matrix for Azure Trusted Launch VMs with Azure Site Recovery:
 
 You can follow the same steps for configure Azure Site Recovery with Trusted VMs as you use for Azure Site Recovery with standard Azure VMs. 
 
-- [Configure Azure Site Recovery on Trusted VMs to another region](https://learn.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-enable-replication).
-- [Failover, re-protect, and failback Azure VMs](https://learn.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-failover-failback).  
+- To configure Azure Site Recovery on Trusted VMs to another region, [follow these steps](https://learn.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-enable-replication).
+- To failover, re-protect, and failback Azure VMs, [follow these steps](https://learn.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-failover-failback).  
 
 > [!NOTE]
 >
