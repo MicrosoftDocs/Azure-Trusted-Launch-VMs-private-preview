@@ -14,8 +14,8 @@ Find the support matrix for Azure Trusted Launch VMs with Azure Site Recovery:
     > Support for Azure Trusted Launch VMs is not available in Azure Government regions and Azure in China regions.
 - **Operating system**: Only Windows OS is supported. Linux OS is not supported.
 - [Multi-VM consistency](https://learn.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#multi-vm-consistency) is not supported.
-- [Configuration of Private endpoints](https://learn.microsoft.com/azure/site-recovery/azure-to-azure-how-to-enable-replication-private-endpoints) with recovery services vault is not supported.
-- Configuration of Managed Identity with recovery services vault is not supported.
+- **Private endpoints**: [Configuration of Private endpoints](https://learn.microsoft.com/azure/site-recovery/azure-to-azure-how-to-enable-replication-private-endpoints) with recovery services vault is not supported.
+- **Managed identity**: Configuration of Managed Identity with recovery services vault is not supported.
 - Migration of Gen 2 Azure VMs to Trusted VMs is not supported.
 - If you enable Azure Site Recovery on VMs with disks have public access disabled and/or private access disabled, customers must configure these settings again on the disks of failed over and failed back VM.  
 - Enabling **Management** > **Site Recovery** option in *Create a new Virtual machine* flow isn't supported.  
