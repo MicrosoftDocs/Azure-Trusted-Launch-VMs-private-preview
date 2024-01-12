@@ -18,7 +18,7 @@ Find the support matrix for Azure Trusted Launch VMs with Azure Site Recovery:
 - **Private endpoints**: [Configuration of Private endpoints](https://learn.microsoft.com/azure/site-recovery/azure-to-azure-how-to-enable-replication-private-endpoints) with recovery services vault is not supported.
 - **Managed identity**: Configuration of Managed Identity with recovery services vault is not supported.
 - Migration of Gen 2 Azure VMs to Trusted VMs is not supported.
-- If you enable Azure Site Recovery on VMs with disks have public access disabled and/or private access disabled, customers must configure these settings again on the disks of failed over and failed back VM.  
+- Azure Managed Disks with Public access disabled is not supported. 
 - Enabling **Management** > **Site Recovery** option in *Create a new Virtual machine* flow isn't supported.  
 
 ## Configure Azure Site Recovery for Trusted VMs
