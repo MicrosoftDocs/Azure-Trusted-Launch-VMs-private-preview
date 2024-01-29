@@ -1,11 +1,11 @@
 
 # Azure Site Recovery support for Azure Trusted Launch VMs (private preview)
 
-Azure Site Recovery has launched private preview support for Azure Trusted Launch VMs.  To enroll in the private preview, share your interest by filling up this <enrolment form>. 
+[Azure Site Recovery](https://learn.microsoft.com/azure/site-recovery/site-recovery-overview) has launched private preview support for Azure Trusted Launch VMs.  To enroll in the private preview, share your interest by filling up this [enrolment form](https://aka.ms/AsrWindowsTrustedVmPrivatePreviewForm).
 
-Trusted launch protects against advanced and persistent attack techniques. Trusted launch is composed of several, coordinated infrastructure technologies that can be enabled independently. Each technology provides another layer of defense against sophisticated threats.[Learn more](https://learn.microsoft.com/azure/virtual-machines/trusted-launch).
+Trusted launch protects against advanced and persistent attack techniques. Trusted launch is composed of several, coordinated infrastructure technologies that can be enabled independently. Each technology provides another layer of defense against sophisticated threats.[Learn more about Trusted VMs](https://learn.microsoft.com/azure/virtual-machines/trusted-launch).
 
-Deploy an Azure Trusted Launch VM, using [these steps](https://learn.microsoft.com/azure/virtual-machines/trusted-launch-portal). 
+Deploy an Azure Trusted Launch VM, using [these steps](https://learn.microsoft.com/azure/virtual-machines/trusted-launch-portal).
 
 ## Support matrix
 
@@ -20,6 +20,7 @@ Find the support matrix for Azure Trusted Launch VMs with Azure Site Recovery:
 - Migration of Gen 2 Azure VMs to Trusted VMs is not supported.
 - Azure Managed Disks with Public access disabled is not supported. 
 - Enabling **Management** > **Site Recovery** option in *Create a new Virtual machine* flow isn't supported.  
+- Replicating [Boot Integrity Monitoring](https://learn.microsoft.com/azure/virtual-machines/boot-integrity-monitoring-overview) state is not supported. Customers will need to enable it explicitly on the failed over VM, in case they want to use it. 
 
 ## Configure Azure Site Recovery for Trusted VMs
 
