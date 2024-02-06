@@ -3,7 +3,7 @@
 
 [Azure Site Recovery](https://learn.microsoft.com/azure/site-recovery/site-recovery-overview) has launched private preview support for Azure Trusted Launch VMs.  To enroll in the private preview, share your interest by filling up this [enrolment form](https://aka.ms/AsrWindowsTrustedVmPrivatePreviewForm).
 
-Once customer is enrolled in private preview, you can try private preview using the following [Azure Portal Link](https://ms.portal.azure.com/).
+Once customer is enrolled in private preview, you can try private preview using the following [Azure Portal Link](https://aka.ms/TrustedVMSupport).
 
 Trusted launch protects against advanced and persistent attack techniques. Trusted launch is composed of several, coordinated infrastructure technologies that can be enabled independently. Each technology provides another layer of defense against sophisticated threats.[Learn more about Trusted VMs](https://learn.microsoft.com/azure/virtual-machines/trusted-launch).
 
